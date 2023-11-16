@@ -1,9 +1,9 @@
 # AWS_Cloud(2023-11-16 Commit)
-# ■ Flask 서비스 AWS로 배포하기 - AWS 서버 대여
+## ■ Flask 서비스 AWS로 배포하기 - AWS 서버 대여
 
 ---
 
-## 1. AWS 가상서버 대여하기
+### 1. AWS 가상서버 대여하기
 
 - EC2 서비스로 들어가기 
   
@@ -58,7 +58,7 @@
 
 ---
 
-## 2. .pem 파일 경로 설정 (윈도우ver)
+### 2. .pem 파일 경로 설정 (윈도우ver)
 
 - 로컬디스크C -> 사용자 -> gjaischool1 에 .ssh폴더 만들기
 
@@ -75,7 +75,7 @@
   
   --- 
 
-## 3. ec2 서버에 접속하기
+### 3. ec2 서버에 접속하기
 
 - $ssh -i [키 페어 경로] [유저 이름]@[퍼블릭 DNS 주소]  -> user이름은 보통 ubuntu로 설정됨 
 
@@ -100,7 +100,7 @@
 
 ---
 
-## 4. Github에 프로젝트 업로드하기
+### 4. Github에 프로젝트 업로드하기
 
 - vscode 사용 
   
@@ -125,7 +125,7 @@
 
 - 담은 파일들을 origin이라는  front_end_v1 이름의 브랜치에 레포지토리 주소로 업로드 ex):  git push origin front_end_v1
   
-  ### front_end_v1 브랜치를 default로 설정하기
+  #### front_end_v1 브랜치를 default로 설정하기
 
 - 내가 올린 원격저장소 branch 클릭
 
@@ -139,7 +139,7 @@
 
 ---
 
-## 5. EC2 서버에서 git clone 하기
+### 5. EC2 서버에서 git clone 하기
 
 - 이 프롬프트에서 실행
 
@@ -162,7 +162,7 @@
 
 ---
 
-## 6. uWSGI 연결하기
+### 6. uWSGI 연결하기
 
 - 가상환경을 만들기전에 python3-venv를 설치: sudo apt-get install python3-venv
 
@@ -182,7 +182,7 @@
 
 ---
 
-## 7. 보안그룹 인바운드 규칙 주기 (위에걸로는 포트설정이 안되어 있어 실행이 안됨)
+### 7. 보안그룹 인바운드 규칙 주기 (위에걸로는 포트설정이 안되어 있어 실행이 안됨)
 
 - 인스턴스 ID 클릭
 ![28cd51e6-1219-48ed-8654-8e618521f191](https://github.com/Technician-for-AI-Speech-Service/AI_Modeling/assets/112459716/251147a9-ae94-4924-8a40-f33a6495b70b)
