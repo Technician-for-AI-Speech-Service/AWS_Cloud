@@ -1,5 +1,5 @@
 # AWS_Cloud
-# 1. Flask 서비스 AWS로 배포하기 - AWS 서버 대여
+# ■ Flask 서비스 AWS로 배포하기 - AWS 서버 대여
 
 ---
 
