@@ -1,4 +1,4 @@
-# AWS_Cloud
+# AWS_Cloud(2023-11-16 Commit)
 # ■ Flask 서비스 AWS로 배포하기 - AWS 서버 대여
 
 ---
