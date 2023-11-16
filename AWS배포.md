@@ -8,17 +8,8 @@
   
   
 
-  # 1. Flask 서비스 AWS로 배포하기 - AWS 서버 대여
+ ![db4e4807-5dd9-4c33-839c-91059676ff29](https://github.com/Technician-for-AI-Speech-Service/AI_Modeling/assets/112459716/f9c105b2-ff3e-48a5-8770-c15a1ab72a29)
 
----
-
-## 1. AWS 가상서버 대여하기
-
-- EC2 서비스로 들어가기 
-  
-  
-
-  ![db4e4807-5dd9-4c33-839c-91059676ff29](file:///C:/Users/gjaischool1/Pictures/Typedown/db4e4807-5dd9-4c33-839c-91059676ff29.png)
 
 
 
