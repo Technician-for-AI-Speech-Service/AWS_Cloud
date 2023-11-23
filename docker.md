@@ -32,3 +32,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```python
 sudo docker --version
 ```
+---
+## 2. Docker를 사용하여 이미지 빌드하기
+---
+- -t는 태그명 지정할 때 사용하는 옵션임. 뒤에 공백 . 꼭 붙혀줘야함 태그 설정안하면 latest로 자동으로 생성됨
+```python
+docker build -t $이미지명:$태그 .
+```
