@@ -39,3 +39,4 @@ sudo docker --version
 ```python
 docker build -t $이미지명:$태그 .
 ```
+- 이번 프로젝트 같은 경우는 requirements.txt에 tensorflow-gpu=2.3 버전을 제거하고 tensorflow 만 작성해줘야함
